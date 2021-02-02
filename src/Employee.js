@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-import SearchForm from "./SearchForm"
+import SearchForm from "./component/SearchForm"
 import EmployeeTable from "./EmployeeTable"
+// import EmployeeListItem from "./EmployListItem"
 import API from './utils/API'
+import "./index"
 // import './App.css'
 
 class Employee extends Component {
@@ -36,6 +38,7 @@ class Employee extends Component {
                 <EmployeeTable
                     users={this.state.filterUsers}
                 />
+
             </div>
 
         );

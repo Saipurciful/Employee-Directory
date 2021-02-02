@@ -4,8 +4,9 @@ import EmployListItem from "./EmployListItem";
 function EmployeeTable(props) {
     // console.log(props)
     return (
-        <div className="text-center">
-            <table>
+
+        <div className="container">
+            <table className="table table-striped">
                 <thead>
                     <tr>
                         <th> Picture</th>
@@ -24,5 +25,6 @@ function EmployeeTable(props) {
         </div>
     );
 }
+
 
 export default EmployeeTable;
