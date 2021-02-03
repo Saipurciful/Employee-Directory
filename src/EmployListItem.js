@@ -3,6 +3,19 @@ import React from 'react'
 
 function EmployListItem({ users }) {
 
+        function formatDate(date) {
+                var d = new Date(date),
+                        month = '' + (d.getMonth() + 1),
+                        day = '' + d.getDate(),
+                        year = d.getFullYear();
+
+                if (month.length < 2)
+                        month = '0' + month;
+                if (day.length < 2)
+                        day = '0' + day;
+
+                return [year, month, day].join('-');
+        }
         console.log(users)
         return (
                 <tbody>
@@ -15,7 +28,7 @@ function EmployListItem({ users }) {
                                                         <td>{name.first} {name.last}</td>
                                                         {/* <td></td> */}
                                                         <td> {email}</td>
-                                                        <td>{dob.date} </td>
+                                                        <td>{formatDate(dob.date)} </td>
                                                         <td> {phone}</td>
                                                 </tr>
                                         )
