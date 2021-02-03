@@ -11,7 +11,7 @@ function EmployeeTable({ users }) {
                     <tr>
                         <th> Picture</th>
                         <th> Name</th>
-                        <th> Location</th>
+                        {/* <th> Location</th> */}
                         <th> Email</th>
                         <th> DOB</th>
                         <th> Phone</th>
