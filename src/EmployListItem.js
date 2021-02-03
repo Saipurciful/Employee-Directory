@@ -4,11 +4,13 @@ import Employee from './Employee'
 function EmployListItem(props) {
         // {props.users.map((user) => 
         console.log(props)
+
+        // { props.users.map((employee) => {
         return (
 
                 <tbody>
                         <tr>
-                                <td> dieikdiei</td>
+                                <td>ere444</td>
                                 <td>Defaultson</td>
                                 <td>def@somemail.com</td>
                                 <td> ddjdj</td>

@@ -10,7 +10,7 @@ function EmployeeTable(props) {
                 <thead>
                     <tr>
                         <th> Picture</th>
-                        <th> Employee Name</th>
+                        <th> Name</th>
                         <th> Location</th>
                         <th> Email</th>
                         <th> DOB</th>
@@ -20,9 +20,9 @@ function EmployeeTable(props) {
                 <EmployListItem
                     users={props.users} />
             </table>
-
-
         </div>
+
+
     );
 }
 
