@@ -1,7 +1,7 @@
 import React from "react";
 import EmployListItem from "./EmployListItem";
 
-function EmployeeTable(props) {
+function EmployeeTable({ users }) {
     // console.log(props)
     return (
 
@@ -18,7 +18,7 @@ function EmployeeTable(props) {
                     </tr>
                 </thead>
                 <EmployListItem
-                    users={props.users} />
+                    users={users} />
             </table>
         </div>
 
