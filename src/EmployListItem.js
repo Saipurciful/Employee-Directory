@@ -19,7 +19,7 @@ function EmployListItem({ users }) {
         console.log(users)
         return (
                 <tbody>
-                        {/* map thru array if 1st element exit undefined */}
+
                         {users[0] !== undefined && users[0].name !== undefined ? (
                                 users.map(({ name, picture, phone, email, dob, login }) => {
                                         return (
