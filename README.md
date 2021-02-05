@@ -40,4 +40,4 @@
   * How to reach me with additional questions : <saipurciful@gmail.com>
 
 ## Link to the project site. 
-* N/A
+* https://saipurciful.github.io/employee-directory/
